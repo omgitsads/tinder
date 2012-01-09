@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake', '~> 0.8'
   gem.add_development_dependency 'rspec', '~> 2.6'
   gem.add_runtime_dependency 'activesupport', ['>= 2.3', '< 4']
-  gem.add_runtime_dependency 'eventmachine', '~> 0.12'
+  gem.add_runtime_dependency 'eventmachine', '>= 0.12'
   gem.add_runtime_dependency 'faraday', ['>= 0.6', '< 0.8']
   gem.add_runtime_dependency 'faraday_middleware', ['>= 0.6', '< 0.8']
   gem.add_runtime_dependency 'hashie', '~> 1.0'
